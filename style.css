@@ -9,6 +9,7 @@ body {
 .main {
     display: flex;
     height: 100vh;
+    padding: 0.5rem;
 }
 
 .sidebar {
@@ -22,6 +23,7 @@ body {
     flex: 1;
     border-radius: 1rem;
     overflow: auto;
+    margin-left: 0.5rem;
 }
 
 .music-player{
@@ -77,7 +79,7 @@ a{
 }
 
 
-.options{
+.options {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,8 +92,51 @@ a{
 }
 
 .icons{
-    font-size: 1.25rem;
+    font-size: 1.25rem;   
+    display: flex;
+}
+
+.icons i {
     opacity: 0.7;
+    margin-right: 1rem;
+
+}
+
+.icons i:hover{
+    opacity: 1;
+}
+
+.box{
+    background-color: #232323;
+    height:8rem;
+    border-radius: 0.75rem;
+    margin: 0.75rem 0 1.75rem 0;
+    padding: 0.75rem 1rem;
+    
+
+}
+
+.box-p1{
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.box-p2{
+    font-size: 0.75rem;
+    opacity: 0.9;
+
+}
+
+.badge{
+    background-color: #fff;
+    border-radius: 100px;
+    border: none;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin: 0.5rem;
+    height: 2rem;
+    width: fit-content;
 }
 
 
