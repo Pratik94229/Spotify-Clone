@@ -9,7 +9,6 @@ body {
 .main {
     display: flex;
     height: 100vh;
-    padding: 0.5rem;
 }
 
 .sidebar {
@@ -139,5 +138,43 @@ a{
     width: fit-content;
 }
 
+.dark-badge{
+    background-color: #000;
+    color: #fff;
+}
 
+.sticky-nav{
+    position: sticky;
+    top:0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
 
+}
+
+.sticky-nav img{
+    margin-left: .75rem;
+}
+
+.sticky-nav-options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sticky-nav-options button{
+    margin-right: 1rem ;
+}
+
+.nav-item{
+    margin-right: 1rem;
+}
+
+@media (max-width:1000px){
+   .hide{
+    display: none;
+   }
+}
