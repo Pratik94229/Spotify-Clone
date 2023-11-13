@@ -139,6 +139,10 @@ a{
     width: fit-content;
 }
 
+.badge:hover{
+    background-color: green;
+}
+
 .dark-badge{
     background-color: #000;
     color: #fff;
