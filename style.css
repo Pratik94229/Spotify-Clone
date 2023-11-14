@@ -300,3 +300,73 @@ a{
     margin-top: -6px;
 }
 
+.player-control-left{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+
+
+.song-img{
+    height: 15%;
+    width: 15%;
+}
+
+.song-name{
+    font-weight: 500;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+
+}
+
+.display-artist{
+    width: 40%;
+    justify-content: space-around;
+    padding: 1rem;
+
+}
+
+.display-icons{
+    display: flex;
+    align-items: start;
+    width: 4rem;
+    justify-content: space-around;
+}
+
+.artist{
+    font-size: small;
+}
+
+.right-control{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
+.control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.control-right-control{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+   }
+
+
+
+.display-icons{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
