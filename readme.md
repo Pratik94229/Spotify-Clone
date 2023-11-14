@@ -20,6 +20,7 @@ This project is a frontend clone of the Spotify web application. It has been cre
 
 ## Screenshots
 
+![Alt text](/assets/spotify.png?raw=true "Optional Title")
 
 ## Features
 
