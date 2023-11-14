@@ -18,7 +18,8 @@ A simple Spotify clone built with HTML and CSS.
 
 This project is a frontend clone of the Spotify web application. It has been created using HTML and CSS to mimic the visual style and layout of the original Spotify interface.
 
-## Screenshots
+## Screenshot
+![Alt text](/assets/spotify.png?raw=true "Optional Title")
 
 
 ## Features
